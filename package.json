@@ -1,0 +1,31 @@
+{
+  "name": "decentraip",
+  "version": "1.0.0",
+  "description": "Ethereum document fingerprint registry with local SHA-256 hashing and owner-authorized transfers",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.cjs",
+    "test": "node --test test/registry.test.cjs"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "web3",
+    "sha256",
+    "document-registry"
+  ],
+  "type": "commonjs",
+  "devDependencies": {
+    "ethers": "6.13.0",
+    "ganache": "7.9.2",
+    "solc": "0.8.20"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nullnulI/DecentraIP.git"
+  }
+}
